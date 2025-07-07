@@ -1,1 +1,17 @@
 @import "tailwindcss";
+@plugin 'tailwind-scrollbar';
+
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  @apply bg-zinc-900 text-zinc-50;
+}

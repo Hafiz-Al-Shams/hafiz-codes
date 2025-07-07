@@ -1,14 +1,15 @@
+import Header from "./components/Header";
 
 
 function App() {
-  
+
 
   return (
     <>
-      
-      <p className='text-5xl bg-amber-200 text-center'>Tailwind working</p>
+
+      <Header></Header>
     </>
   )
 }
 
-export default App
+export default App;
